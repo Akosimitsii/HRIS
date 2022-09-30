@@ -1,0 +1,9 @@
+<html>
+<title>J S Validation</title>
+<head>
+<script type="text/javascript" src="scripts/validNum.js"></script>
+<body>
+<form name="form1" action="post">
+<input type="text" onKeypress"validText(this.value)"
+<input type="Submit" value="save">
+</form

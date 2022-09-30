@@ -1,0 +1,34 @@
+<?php
+$servername = "localhost";	// local server of the xampp, DO NOT CHANGE
+$database = "pcaat_dtr";	// name of the database you created in XAMPP
+$username = "root";		// the directory of xampp/htdocs where you put your folder containing webpages
+$password = "";			// no password in localhost (optional)
+
+$conn = new mysqli($servername, $username, $password, $database);
+ Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+if(isset($_POST['Submit'])) {
+$employeenumber = $_POST['empnumber'];	// empnumber textfield from the form
+$firstname = $_POST['fname'];	// firstname textfield from the form
+
+// employee is the table
+ $sql = "INSERT into employees(employeenumber,firstname) "	//the datafields in the table
+     . "VALUES('$employeenumber','$firstname') ";		// the variables taken from the form
+
+ if(mysqli_query($conn, $sql)) {
+?>
+	<SCRIPT Language=Javascript>
+	<!--
+		alert("Employee Info successfully recorded ");
+	//  End -->
+	</script>			 
+
+<?php 
+	
+   }  
+  }
+
+?>

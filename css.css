@@ -1,0 +1,142 @@
+body {
+	font-family: Microsoft Sans Serif;
+	font-size: 11px;
+	background-image: url(images/bgmain.gif);
+	margin: 0px;
+}
+td {
+	font-size: 11px;
+}
+h1 {
+	font-size:13px; font-weight:bold	
+}
+.odd {
+	background-color:#ffffff;
+}
+
+.even {
+	background-color:#ffffcc;
+}
+
+.row1 {
+	background-color:#e4f0fa;
+}
+
+.row2 {
+	background-color:#f7fafd;
+}
+
+.footer {
+	border-top:dotted 1px #ccffff;
+}
+
+.cpanel {
+	background-color:#0080c0;color:#ffffff;
+}
+
+.head {
+	background-color:#2f75bb;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;height:9px;vertical-align:middle;
+}
+
+.thead {
+	background-color:#996666;font-size:10px;font-weight:bold;text-align:left;color:#ffffff;height:9px;vertical-align:top;
+}
+
+.thead2 {
+	background-color:#5897d6;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;vertical-align:middle;
+}
+
+.tfoot {
+	background-color:#886666;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;padding:3px;
+}
+.navoff {
+	background-image: url(buttons/btn01.jpg);
+	text-indent: 24px;
+	height: 22px;
+	width: 188px;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+a:link {
+	font-family: Microsoft Sans Serif;
+	color: #000080;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+}
+a:hover {
+	font-family: Microsoft Sans Serif;
+	color: #000080;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+a:visited {
+	font-family: Microsoft Sans Serif;
+	color: #000080;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+}
+.navon {
+	background-image: url(buttons/btn02.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-decoration: none;
+	height: 22px;
+	width: 188px;
+	text-indent: 26px;
+}
+a:link {
+	font-family: Microsoft Sans Serif;
+	color: #000080;
+	text-decoration: none;
+	font-size: 11px;
+}
+a:hover {
+	font-family: Microsoft Sans Serif;
+	color: #ff0000;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+td.boxlink:hover {
+	color: #808080; background-color: #ffffce; font-size: 11px; font-weight: bold;
+}
+input {
+	font-family: Verdana; font-size: 11px; font-style: normal; line-height: normal; 
+}
+#loadImg {
+	position: absolute;
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	z-index: 100;
+	top: 10%;
+	left: 0;
+	line-height: 0;	
+}
+
+#loadText {
+  position: relative;
+  font-family: Verdana, Arial;
+  font-size: 20px;
+  top: 87%;
+  height: 25px;
+  color: #fff;	
+  text-align: center;  
+  vertical-align: bottom;
+}
+
+.highlightit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 0.5;
+}
+
+.highlightit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 1;
+}
+
+
